@@ -1,0 +1,22 @@
+.main-containers {
+  margin: 10px 25% 5px auto;
+  
+
+}
+
+.category-items-container {
+  background-color: rgb(150, 144, 21);
+  display: flex; 
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.category-items {
+  border-style: solid;
+  border-width: 1px;
+  background-color: gray;
+  height: auto;
+  width: auto;
+  padding: 5px;
+
+}

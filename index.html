@@ -1,30 +1,94 @@
 <!DOCTYPE html>
 
 <head>
-  <title>Document</title>
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="./styles.css">
 
-  <style>
+  <style> .category-header {
+    background-color: rgb(246, 240, 232);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin:5px;
+    padding:4px;
+    width:50%
+
+  }
 
   </style>
 
 </head>
 
 <body>
-
-  <header>My Very Organized Grocery List</header>
-
+<!-- this part is done -->
+  <section style="margin: auto; padding: 10px; color: rgb(23, 80, 223); font-size: x-large; font-weight: bolder; text-align: center;">
+    <header><h1>My Very Organized Grocery List</h1></header>
+  </section>
+<!-- this part is done-->
   <main>
 
-    <section>
-      <header><h1>Stuff Items</h1></header>
-    </section>
+    <!-- main pantry items box-->
+    <div class="main-containers">  
+      <div class="category-header">
+        <header><h2 style="margin:auto;">Pantry Items</h2></header>
+      </div>
+      <div class="category-items-container">
+        <div class="category-items">
+          <h3>Canned</h3>
+          <ul>
+            <li>Corn</li>
+            <li>Tuna</li>
+            <li>Green Beans</li>
+            <li>Beans</li>
+          </ul>
+        </div>
+        <div class="category-items">
+          <h3>Dry Goods</h3>
+          <ul>
+            <li>Rice</li>
+            <li>Lentils</li>
+            <li>Oats</li>
+            <li>Pancake Mix</li>
+          </ul>
+        </div>
+        <div class="category-items">
+          <h3>image here</h3>
+        </div>
+      </div>
+    </div>
 
-    <section>
-      <header><h1>Stuff Items</h1></header>
-    </section>
+    <!-- main freezer items box-->
+    <div class="main-containers">
+      <div class="category-header">
+        <header><h1 style="margin:auto;">Freezer Items</h1></header>
+      </div>
+      <div class="category-items-container">
+        <div class="category-items">
+          <h3>Veggies</h3>
+          <ul>
+            <li>Broccoli</li>
+            <li>Carrots</li>
+            <li>Cauliflower</li>
+            <li>Bell Peppers</li>
+          </ul>
+        </div>
+        <div class="category-items">
+          <h3>Snacks</h3>
+          <ul>
+            <li>Chicken Nuggets</li>
+            <li>Hot pockets</li>
+            <li>Fries</li>
+            <li>Tator Tots</li>
+          </ul>
+        </div>
+        <div class="category-items">
+          <h3>image here</h3>
+        </div>
+      </div>
+    </div>
 
   </main>
-  
+
 </body>
 
 </html>
