@@ -1,7 +1,46 @@
+
 div {
   border: 1px solid black;
 }
 
 section {
   border: 1px solid black;
+}
+
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+
+.top-container {
+  background-color: aqua;
+  text-align: center;
+  color: blue;
+  font-weight: bolder;
+
+}
+
+.bottom-container {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.pantry-box {
+  
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 4px;
+}
+
+.pantry-header {
+  
+}
+
+.pantry-categories {
+  display: flex;
 }

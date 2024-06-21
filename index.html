@@ -4,84 +4,89 @@
   <title>Grocery List</title>
   <link rel="stylesheet" href="./styles.css">
 
-  <!-- <style> . {
-
-  } -->
-
+  <style> html {
+    background-color: floralwhite;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  } 
   </style>
 
 </head>
 
 <body>
+  <div class="body-wrapper">
 
-  <div>
-    <header><h1>My Very Organized Grocery List</h1></header>
+    <div class="top-container">
+      <header><h1>My Very Organized Grocery List</h1></header>
+    </div>
+
+    <main>
+      <div class="bottom-container">  
+
+        <!-- main pantry items box-->
+        <div class="pantry-box">  
+          <section class="pantry-header">
+            <header><h2>Pantry Items</h2></header>
+          </section>
+          <div class="pantry-categories">
+            <section class="canned">
+              <h3>Canned</h3>
+              <ul>
+                <li>Corn</li>
+                <li>Tuna</li>
+                <li>Green Beans</li>
+                <li>Beans</li>
+              </ul>
+            </section>
+            <section class="dry-goods">
+              <h3>Dry Goods</h3>
+              <ul>
+                <li>Rice</li>
+                <li>Lentils</li>
+                <li>Oats</li>
+                <li>Pancake Mix</li>
+              </ul>
+            </section>
+            <section class="pantry-img">
+              <img src="./images/pantry.png">
+            </section>
+          </div>
+        </div>
+
+        <!-- main freezer items box-->
+        <div class="freezer-box">
+          <section class="freezer-header">
+            <header><h2>Freezer Items</h2></header>
+          </section>
+          <div class="freezer-categories">
+            <section class="veggies">
+              <h3>Veggies</h3>
+              <ol>
+                <li>Broccoli</li>
+                <li>Carrots</li>
+                <li>Cauliflower</li>
+                <li>Bell Peppers</li>
+              </ol>
+            </section>
+            <section class="snacks">
+              <h3>Snacks</h3>
+              <ol>
+                <li>Chicken Nuggets</li>
+                <li>Hot pockets</li>
+                <li>Fries</li>
+                <li>Tator Tots</li>
+              </ol>
+            </section>
+            <section class="freezer-img">
+              <img src="./images/freezer.png">
+            </section>
+          </div>
+        </div>
+      </div>  
+    </main>
   </div>
-
-  <main>
-
-    <!-- main pantry items box-->
-    <div>  
-      <section>
-        <header><h2>Pantry Items</h2></header>
-      </section>
-      <div>
-        <section>
-          <h3>Canned</h3>
-          <ul>
-            <li>Corn</li>
-            <li>Tuna</li>
-            <li>Green Beans</li>
-            <li>Beans</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Dry Goods</h3>
-          <ul>
-            <li>Rice</li>
-            <li>Lentils</li>
-            <li>Oats</li>
-            <li>Pancake Mix</li>
-          </ul>
-        </section>
-        <section>
-          <img src="./images/pantry.png">
-        </section>
-      </div>
-    </div>
-
-    <!-- main freezer items box-->
-    <div>
-      <section>
-        <header><h2>Freezer Items</h2></header>
-      </section>
-      <div>
-        <section>
-          <h3>Veggies</h3>
-          <ol>
-            <li>Broccoli</li>
-            <li>Carrots</li>
-            <li>Cauliflower</li>
-            <li>Bell Peppers</li>
-          </ol>
-        </section>
-        <section>
-          <h3>Snacks</h3>
-          <ol>
-            <li>Chicken Nuggets</li>
-            <li>Hot pockets</li>
-            <li>Fries</li>
-            <li>Tator Tots</li>
-          </ol>
-        </section>
-        <section>
-          <img src="./images/freezer.png">
-        </section>
-      </div>
-    </div>
-
-  </main>
-
 </body>
 
 </html>
