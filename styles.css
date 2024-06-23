@@ -1,10 +1,3 @@
-/* div {
-  border: 1px solid black;
-}
-
-section {
-  border: 1px solid black;
-} */
 
 .body-wrapper {
   display: flex;
@@ -16,58 +9,39 @@ section {
   text-align: center;
   color: blue;
   font-weight: bolder;
+  /* border: 5px dashed red; */
 }
 
 .bottom-container {
-
-  display: flex;
-  flex-direction: column;  ;
-}
-
-h2 {
-  margin-left: 2%;
-}
-
-.pantry-box {  
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 4px;
+  /* border: 5px dashed black; */
 }
-
-.pantry-header {
-  background-color: skyblue;
-  width: 66%;
-}
-
-.pantry-categories {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 0 5px 0;
-}
-
-.freezer-box {
+.main-box {  
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 4px;
+  margin-top: 5px;
+  /* border: 5px dotted purple; */
 }
 
-.freezer-header {
+.main-box-header {
   background-color: skyblue;
+  width: 50%;
+  border: 2px solid black;
 }
 
-.freezer-categories {
+.main-box-categories {
   display: flex;
-  justify-content: space-between;
-  padding: 5px;
+  margin-top: 5px;
+  
+  
 }
 
 .category {
   box-sizing: border-box;
   background-color: aquamarine;
   padding: 5px;
-  height: 450px;
+  height: 100%;
   aspect-ratio: 1/1;
 }
 
